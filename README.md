@@ -6,6 +6,7 @@ Each day consists of two halfs of 8 hours each, each hour is divided in 64 minut
 ![Image of octal clock](https://cdn.shopify.com/s/files/1/0358/9733/products/Art_a5a2374d-adb5-476b-b071-5e80dc4d1842_grande.png?v=1487108992)
 
 Instead of the number 1 through 8, which might easily be confused with the first 8 digits of the usual clock numbers 1 through 12, you could also use 8 characters derived from the ligatures in the Shavian character set as octal digits, as follows:
+
 Octal digit | Shavian digit
 ------------ | -------------
 1 | 𐑹
