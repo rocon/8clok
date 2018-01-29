@@ -1,11 +1,17 @@
 # 8clok
 Octal (base-8) wall clock time
 
-Each day consists of two halfs of 8 hours each, each hour is divided in 64 minutes, each minute is divided in 64 seconds. The figure of 64 is 8 times 8, so all minutes and seconds get evenly divided in groups of 8 over the hours. Thsi means that 1 hour on the octal clock equals 1.5 hours on the regular clock.
+Each day consists of two halfs of 8 hours each, each hour is divided in 64 minutes, each minute is divided in 64 seconds. The figure of 64 is 8 times 8, so all minutes and seconds get evenly divided in groups of 8 over the hours. This means that one hour on the octal clock equals 1.5 hours on the regular clock.
 
 ![Image of octal clock](https://cdn.shopify.com/s/files/1/0358/9733/products/Art_a5a2374d-adb5-476b-b071-5e80dc4d1842_grande.png?v=1487108992)
 
-Instead of the number 1 through 8, which might easily be confused with the first 8 digits of the usual clock numbers 1 through 12, you could also use 8 characters derived from the ligatures in the Shavian character set as octal digits, as follows:
+To indicate full octal clock time, concatenate hours, minutes and seconds using the format hh:mm:ss: the is means two digits for each hour, minute and second this is specified. There are only 8 hours on the octal clock, therefore first h is also zero, but it is still there because it denotes the octal base, and it regularizes the way clock divisions are indicated. To indicate the minutes and seconds, you need to start at 1 (not at 0 like in regular clock time), and use two digits. E.g, 8 minutes becomes 08, 64 minutes becomes 88 (since this in octal notation and not decimal notation like in regular clock time). The same goes for seconds.
+
+To give two examples:
+- The earliest possible clock time is 01:01:01.
+- The latest possible clock time is 08:88:88.
+
+Instead of the numbers 1 through 8, which might be easily confused with the first 8 digits of the usual clock numbers 1 through 12, you could also use below 8 characters as octal digits, derived from the ligatures in the Shavian character set and reordered:
 
 Octal digit | Shavian digit
 ------------ | -------------
